@@ -7,7 +7,7 @@ import ViewUi from "./components/View";
 export default function App() {
   return (
     
-    <TextUi/>
+    <ViewUi/>
     
   );
 }
