@@ -9,12 +9,12 @@ export default function AlartUi(){
         <Button title="Alart 2" onPress={()=> Alert.alert("Invalid data" , "data is not valid")}/>
         <Button title="Alart 3" onPress={()=> Alert.alert("Invalid data" , "data is not valid" ,[
             {
-                text: "OK",
-                onPress:()=>console.log("okk pressed")
+                text: "Cancel",
+                onPress:()=>console.log("Cancel pressed")
             },
             {
-                text:"Cancel",
-                onPress:()=> console.log("Cancel pressed")
+                text:"Ok",
+                onPress:()=> console.log("Okk pressed")
             }
         ])} />
     </View>
