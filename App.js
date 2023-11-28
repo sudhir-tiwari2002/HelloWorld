@@ -1,6 +1,7 @@
 
 
 import ActivityIndicatorUi from "./components/ActivityIndicator";
+import AlartUi from "./components/Alart";
 import ButtonUi from "./components/Button";
 import ImageUi from "./components/Image";
 import ModalUi from "./components/Modal";
@@ -19,7 +20,8 @@ export default function App() {
     // <PressableUi/>
     // <ModalUi/>
     // <StatusBarUi/>
-    <ActivityIndicatorUi/>
+    // <ActivityIndicatorUi/>
+    <AlartUi/>
     
   );
 }
